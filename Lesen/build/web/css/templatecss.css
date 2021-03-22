@@ -1,0 +1,133 @@
+/*
+    templatecss.css : colors, CSS rules used in the the navbar and footer, font size and the color of the text
+    Created on : 17-Sep-2018, 09:37:30
+    Author     : Ingrid Farkas
+    Project    : Lesen
+*/
+
+
+/* style used in the footer */
+.footer {
+    height: auto; 
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+    background: -webkit-linear-gradient(to right, rgb(180, 180, 180), rgb(162, 166, 168));
+    font-weight: 600;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(126, 146, 137), rgb(133, 148, 141)); 
+}
+
+/* style for the h3 in the footer */
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+} 
+
+/* styles for the list in the footer */
+.footer ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+/* styles for the links (in the list) in the footer */
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+/* color of the links in the list */
+.footer a {
+    color: #fff;
+} 
+
+/* the background color on the navbar */
+.navbar {
+    background-color: rgb(180, 187, 184) !important;
+} 
+
+ /* the color of the brand (on the navbar) */
+.navbar .navbar-brand {
+    color: white;
+}
+
+/* the color on hover of the brand (on the navbar) */
+.navbar .navbar-brand:hover {
+    color: black;
+}
+
+/* white color of the link (on the navbar) */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* the color on hover of the brand (on the navbar) */
+.navbar .nav-link:hover {
+    color: black !important;
+}
+
+/* the color of the link on the drop down menu */
+.navbar .nav-item .dropdown-menu .dropdown-item {
+    color: black;
+}
+
+/* the color on hover of the link on the drop down menu */
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color: black !important;
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* the background color of the toggler icon */
+.navbar-toggler {
+    background-color: white;
+}
+
+.text_size {
+    font-size: 80%;
+}
+
+/* style for the title of the bookstore */
+.title-text {
+    font-size: 30pt;
+    padding-bottom: 5px;
+}
+
+/* font size of the text used in the footer */
+.smaller-text {
+    font-size: 10pt;
+}
+
+/* grey background used on the page */
+.greybckgr {
+    background-color: rgb( 180, 187, 184 );   
+}
+
+/* white background used on the page */
+.whitebckgr {
+    background-color: white;
+}
+
+/* the bottom padding of the logo */
+.img-logo {
+    padding-bottom: 20px;
+}
+
+/* class used for centering of the image */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
